@@ -1,0 +1,8 @@
+{
+  "pages": ["pages/index/index", "pages/info/info", "pages/post/post"],
+  "window": {
+    "navigationBarTitleText": "hello",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  }
+}

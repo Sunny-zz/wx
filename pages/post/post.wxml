@@ -1,0 +1,3 @@
+<!-- pages/post/post.wxml -->
+<text>{{id}}</text>
+<text>{{post.title}}</text>

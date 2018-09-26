@@ -1,0 +1,4 @@
+<!-- pages/info/info.wxml -->
+<import src="../index/index.wxml" />
+<template is="pic" />
+<text>pages/info/info.wxml</text>
