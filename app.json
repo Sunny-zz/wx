@@ -1,8 +1,35 @@
 {
-  "pages": ["pages/index/index", "pages/info/info", "pages/post/post"],
+  "pages": [
+    "pages/index/index",
+    "pages/info/info",
+    "pages/post/post",
+    "pages/postList/postList"
+  ],
   "window": {
     "navigationBarTitleText": "hello",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/home.png",
+        "selectedIconPath": "./static/home-active.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "个人中心",
+        "iconPath": "./static/home.png",
+        "selectedIconPath": "./static/home-active.png"
+      },
+      {
+        "pagePath": "pages/postList/postList",
+        "text": "文章列表",
+        "iconPath": "./static/home.png",
+        "selectedIconPath": "./static/home-active.png"
+      }
+    ]
   }
 }

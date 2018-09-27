@@ -1,0 +1,8 @@
+<!-- pages/postList/postList.wxml -->
+<text>pages/postList/postList.wxml</text>
+<view wx:if="{{array.length}}">
+  <navigator url="../../pages/post/post?id={{item.id}}" wx:for="{{array}}" wx:key="item.id">
+    {{item.text}}
+  </navigator>
+</view>
+<view wx:else>jiazaizhong...</view>
