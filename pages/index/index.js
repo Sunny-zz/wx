@@ -44,7 +44,7 @@ Page({
   },
   rotate: function() {
     const that = this
-    that.animation.rotate(360).step({ duration: 1000 })
+    that.animation.rotate(180).scale(1.2).step({ duration: 500 }).rotate(360).scale(1).step({duration:500}).rotate(0).step({duration:0})
     that.setData({ animation: that.animation.export() })
   }
 })
